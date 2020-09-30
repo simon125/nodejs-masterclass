@@ -1,0 +1,9 @@
+HTTP?
+
+Hyper Text Transfer Protocol
+
+for what?
+
+communication between wev servers & clients
+
+it includes header & body
