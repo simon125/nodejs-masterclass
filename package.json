@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-masterclass",
+  "version": "1.0.0",
+  "description": "nodejs masterclass",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon125/nodejs-masterclass.git"
+  },
+  "author": "Szymon Oleszek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simon125/nodejs-masterclass/issues"
+  },
+  "homepage": "https://github.com/simon125/nodejs-masterclass#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "prettier": "^2.1.2"
+  }
+}
