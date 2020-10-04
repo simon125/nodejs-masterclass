@@ -1,24 +1,27 @@
 {
   "name": "nodejs-masterclass",
   "version": "1.0.0",
-  "description": "nodejs masterclass",
+  "description": "Devcamper backend API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/simon125/nodejs-masterclass.git"
   },
   "author": "Szymon Oleszek",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/simon125/nodejs-masterclass/issues"
   },
   "homepage": "https://github.com/simon125/nodejs-masterclass#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "prettier": "^2.1.2"
+    "nodemon": "^2.0.4"
   }
 }
